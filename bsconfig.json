@@ -1,0 +1,25 @@
+{
+  "name": "vite-react-rescript-starter",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".mjs",
+  "reason": { "react-jsx": 3 },
+  "bs-dependencies": [
+    "@rescript/react",
+    "bs-fetch",
+    "rescript-asyncdata",
+    "@glennsl/bs-json",
+    "@ryyppy/rescript-promise",
+    "rescript-react-update"
+  ]
+}
